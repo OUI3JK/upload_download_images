@@ -7,6 +7,7 @@ function uploadImage() {
     if (imageUrl) {
         uploadedImage.src = imageUrl;
         downloadLink.href = imageUrl;
+        downloadLink.setAttribute("download", "image.jpg");
 
         imageContainer.style.display = 'block';
         downloadLink.style.display = 'block';
