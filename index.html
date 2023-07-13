@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Image Upload</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Image Upload and Download</title>
 </head>
 <body>
-    <h1>Image Upload</h1>
+    <h1>Image Upload and Download</h1>
 
     <input type="file" id="upload-input">
     <button onclick="uploadImage()">Upload</button>
-
+    
     <div id="image-container">
-        <img id="uploaded-image" src="" alt="Uploaded Image">
+        <img id="uploaded-image" src=" " alt="Uploaded Image">
     </div>
+
+    <a href="#" id="download-link" download>Download Image</a>
 
     <script src="script.js"></script>
 </body>
